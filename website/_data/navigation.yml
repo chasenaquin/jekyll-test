@@ -3,3 +3,5 @@
   dir: product-overview
 - name: Project Management
   dir: project-management
+- name: Contact
+  dir: Contact
