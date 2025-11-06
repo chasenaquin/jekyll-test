@@ -1,8 +1,8 @@
 # /website/_config.yml
 title: IntelliFlow
 description: Intelligent Automated Cloud Migraitons & DR Solution
-baseurl: "/website"
-url: "https://chasenaquin.github.io/jekyll-test/#" # Replace with your GitHub Pages URL
+baseurl: "/jekyll-test/website"
+url: "https://chasenaquin.github.io#" # Replace with your GitHub Pages URL
 theme: minima
 permalink: pretty
 
