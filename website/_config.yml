@@ -5,6 +5,7 @@ url: "https://chasenaquin.github.io"
 baseurl: "/jekyll-test"
 #theme: minima
 remote_theme: pmarsceill/just-the-docs
+remote_theme_assets: true
 permalink: pretty
 collections:
   docs:
