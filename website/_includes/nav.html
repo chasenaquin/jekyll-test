@@ -1,0 +1,22 @@
+<!-- /website/_includes/nav.html -->
+<nav class="bg-teal-600 text-white py-3 sticky top-0 shadow-md dark:bg-teal-700">
+  <div class="container mx-auto px-4">
+    <ul class="flex space-x-6">
+      {% for item in site.data.navigation %}
+        <li class="relative group">
+          <a href="#" class="hover:text-teal-200 transition duration-300">{{ item.name }}</a>
+          <!-- Dropdown -->
+          <ul class="absolute hidden group-hover:block bg-teal-600 text-white shadow-lg rounded-md mt-2 min-w-max dark:bg-teal-800">
+            {% for doc in site.docs %}
+              {% if doc.path contains item.dir %}
+                <li>
+                  <a href="{{ doc.url | relative_url }}" class="block px-4 py-2 hover:bg-teal-500 dark:hover:bg-teal-600 transition duration-300">{{ doc.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

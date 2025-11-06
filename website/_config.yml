@@ -1,0 +1,21 @@
+# /website/_config.yml
+title: IntelliFlow
+description: Intelligent Automated Cloud Migraitons & Disster Recovery
+baseurl: "/website"
+url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
+theme: minima
+permalink: pretty
+
+# Docs collection
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults for docs
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: default

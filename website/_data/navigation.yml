@@ -1,0 +1,5 @@
+# /website/_data/navigation.yml
+- name: Product Overview
+  dir: product-overview
+- name: Project Management
+  dir: project-management
