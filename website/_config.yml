@@ -3,7 +3,8 @@ description: Modern documentation for ELT's projects
 domain: "https://github.com/chasenaquin/jekyll-test"
 url: "https://chasenaquin.github.io"
 baseurl: "/jekyll-test"
-theme: minima
+#theme: minima
+remote_theme: pmarsceill/just-the-docs
 permalink: pretty
 collections:
   docs:
