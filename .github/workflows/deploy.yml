@@ -1,15 +1,12 @@
 name: Deploy Jekyll Site to GitHub Pages
-
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,7 +32,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './website/_site'
-
   deploy:
     environment:
       name: github-pages
