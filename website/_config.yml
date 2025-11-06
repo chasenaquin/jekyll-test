@@ -1,6 +1,7 @@
 title: ELT Awesome Docs
 description: Modern documentation for ELT's projects
 domain: "https://github.com/chasenaquin/jekyll-test"
+source: "https://github.com/chasenaquin/jekyll-test"
 url: "https://chasenaquin.github.io/jekyll-test"
 baseurl: "/website"
 theme: minima
