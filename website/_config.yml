@@ -2,7 +2,7 @@
 title: IntelliFlow
 description: Intelligent Automated Cloud Migraitons & Disster Recovery
 baseurl: "/website"
-url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
+url: "https://chasenaquin.github.io/jekyll-test/"
 theme: minima
 permalink: pretty
 
