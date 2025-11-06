@@ -1,30 +1,21 @@
-# /website/_config.yml
-title: IntelliFlow
-description: Intelligent Automated Cloud Migraitons & DR Solution
+title: ELT Awesome Docs
+description: Modern documentation for ELT's projects
 baseurl: "/jekyll-test/website"
-url: "https://chasenaquin.github.io#" # Replace with your GitHub Pages URL
+url: "https://chasenaquin.github.io"
 theme: minima
 permalink: pretty
-
-# Docs collection
 collections:
   docs:
     output: true
     permalink: /docs/:path/
-
-# Defaults for docs
 defaults:
   - scope:
       path: ""
       type: docs
     values:
       layout: default
-
-# Include assets to ensure they’re copied to _site
 include:
   - assets
-
-# Exclude unnecessary files from the build
 exclude:
   - Gemfile
   - Gemfile.lock
