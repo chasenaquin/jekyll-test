@@ -1,8 +1,7 @@
-# /website/Gemfile
 source "https://rubygems.org"
-gem "jekyll", "~> 4.3.4"  # Pin to a stable version
+gem "jekyll", "~> 4.3.4"
 gem "minima", "~> 2.5"
-gem "sass", "~> 3.7.4"  # Use older sass gem
+gem "sass", "~> 3.7.4"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
 end
