@@ -1,4 +1,4 @@
-<!--
+<!-- /website/_layouts/default.html -->
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
@@ -17,41 +17,5 @@
   </main>
   {% include footer.html %}
   <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
-</body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-  <script src="{{ site.baseurl }}/assets/js/scripts.js" defer></script>
-</head>
-
-<body>
-  <div class="layout-container">
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar">
-      <div class="sidebar-header">
-        <h2><a href="{{ site.baseurl }}/">{{ site.title }}</a></h2>
-      </div>
-      <ul class="nav-links">
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about/">About</a></li>
-        <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-        <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-      </ul>
-      <div class="sidebar-footer">
-        <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
-      </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="content">
-      {{ content }}
-    </main>
-  </div>
 </body>
 </html>
